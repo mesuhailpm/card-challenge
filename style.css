@@ -1,0 +1,130 @@
+html {
+    box-sizing: border-box;
+    background-color: #e5eff5;
+    margin: 0%;
+    padding: 25px;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+#card {
+    width: 60vw;
+    height: auto;
+    font-family: karla;
+    color: white;
+    box-shadow: -2px 1px 17px 1px rgba(0, 0, 0, 0.42);
+    border-radius: 5px;
+    overflow: hidden;
+
+
+}
+
+#top,
+#bottom-left,
+#bottom-right {
+    padding: 25px;
+}
+
+#top {
+    width: 100%;
+    height: 45%;
+    background-color: white;
+
+}
+
+#top h3 {
+    color: #2fa7a5;
+    font-weight: 700;
+}
+
+#top #p1 {
+    color: #c0df34;
+}
+
+#top #p2 {
+    color: #98a6bd;
+    opacity: 0.7;
+}
+
+#bottom {
+    width: 100%;
+    height: 55%;
+
+}
+
+#bottom-left {
+    width: 100%;
+    height: 100%;
+    background-color: #2fa7a5;
+
+}
+
+#bottom-left h3 {}
+
+#price-part {
+    display: flex;
+
+}
+
+#price {
+    font-weight: 700;
+    font-size: 2rem;
+
+}
+
+#validity {
+    opacity: 0.5;
+    align-self: center;
+    margin-left: 10px;
+}
+
+#bottom-left p {
+    opacity: 0.6;
+}
+
+#bottom-left button {
+    cursor: pointer;
+    opacity: 0.8;
+    color: white;
+    font-size: 1.1rem;
+    font-weight: 700;
+    background-color: #c0df34;
+    width: 100%;
+    border-radius: 5px;
+    height: 3em;
+    border: none;
+    box-shadow: -2px 17px 13px -4px rgba(0, 0, 0, 0.22);
+
+}
+
+#bottom-right {
+    width: 100%;
+    height: 100%;
+    background-color: #40b8b6;
+
+}
+
+#bottom-right ul {
+    opacity: 0.7;
+    list-style: none;
+    padding: 0;
+
+
+}
+
+@media (min-width:575px) {
+
+
+    #card {
+        width: 600px;
+        height: 450px;
+    }
+
+    #bottom {
+        display: flex;
+    }
+}
